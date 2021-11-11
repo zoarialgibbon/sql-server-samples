@@ -7,7 +7,6 @@ trigger:
 # De *pool* geeft aan van wat voor VM-image gebruik gemaakt moet worden om deze pipeline uit te kunnen voeren. In dit geval dus een image met Visual Studio 2017
 pool:
   name: Azure Pipelines
-  vmImage: windows-latest
   demands:
   - msbuild
   - visualstudio
